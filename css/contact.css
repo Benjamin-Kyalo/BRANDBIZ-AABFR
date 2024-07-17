@@ -1,0 +1,128 @@
+/* contactus.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-section {
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666666;
+}
+
+/* Form Styling */
+form {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="name"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+button.form-control {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.form-control:hover {
+    background-color: #0056b3;
+}
+
+/* Button Styling */
+button.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button.btn:hover {
+    background-color: #0056b3;
+}
+
+button.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+button.btn a:hover {
+    color: #cccccc;
+}
+
+/* Contact Information */
+.contact-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.site-footer-title {
+    font-weight: bold;
+    color: #333333;
+}
+
+.phone{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+/* Social Media Icons */
+a img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
