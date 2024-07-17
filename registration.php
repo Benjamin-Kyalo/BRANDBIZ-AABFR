@@ -7,11 +7,10 @@
     <title>Registration Form</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="C:\xampp\htdocs\BRANDBIZ-AABFR\CSS\signup.css">
-    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <form action="register.php" method="POST" id="register_form">
+    <form action="C:\xampp\htdocs\BRANDBIZ-AABFR\PHP\register.php" method="POST" id="register_form">
         <div class="container">
             <h1>Register Form</h1>
             <p>Create an account</p>
